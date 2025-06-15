@@ -3,7 +3,7 @@ Custom dotfiles are kept in ~/dotfiles, and are symlinked to the user's home dir
 
 ## Installation
 Clone the repo into your home directory:
-`git clone git://github.com/mdquigley/dotfiles ~/dotfiles`
+`git clone git@github.com:mdquigley/dotfiles.git ~/dotfiles`
 
 Open the cloned directory:
 `cd ~/dotfiles`
