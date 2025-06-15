@@ -1,4 +1,8 @@
 #!/bin/sh
+#
+# Some aliases make use of variables kept in the file 'private' (untracked)
+###############
+
 
 # local machines
 alias ghanima="ssh '$GHANIMA'"

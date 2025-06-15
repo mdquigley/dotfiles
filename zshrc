@@ -85,14 +85,13 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
-# ENVIRONMENT VARIABLES
-if [ -f ~/.config/shell/private ]; then
-    . ~/.config/shell/private
+# Load private variables
+if [ -f ~/.private ]; then
+    . ~/.private
 fi
 
-# CUSTOM ALIASES
-# Load aliases from the alias.sh file
-if [ -f ~/.config/shell/alias ]; then
-    . ~/.config/shell/alias
+# Load custom aliases
+if [ -f ~/.alias ]; then
+    . ~/.alias
 fi
 
