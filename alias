@@ -1,5 +1,5 @@
 #!/bin/sh
-#
+# 
 # Some aliases make use of variables kept in the file 'private' (untracked)
 ###############
 
@@ -11,7 +11,7 @@ alias alia="ssh '$ALIA'"
 alias leto="ssh '$LETO'"
 
 # configs
-alias zshconfig="nano ~/.config/zsh/.zshrc"
-alias aliasconfig="nano ~/.config/shell/alias.sh"
+alias zshconfig="nano ~/.zshrc"
+alias aliasconfig="nano ~/.alias"
 alias motd="run-parts /etc/update-motd.d"
-alias source-zsh="source ~/.config/zsh/.zshrc"
+alias source-zsh="source ~/.zshrc"
