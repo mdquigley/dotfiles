@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# local machines
+alias ghanima="ssh '$GHANIMA'"
+alias atreides="ssh '$ATREIDES'"
+alias alia="ssh '$ALIA'"
+alias leto="ssh '$LETO'"
+
+# configs
+alias zshconfig="nano ~/.config/zsh/.zshrc"
+alias aliasconfig="nano ~/.config/shell/alias.sh"
+alias motd="run-parts /etc/update-motd.d"
+alias source-zsh="source ~/.config/zsh/.zshrc"
