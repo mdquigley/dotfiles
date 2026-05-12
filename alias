@@ -15,3 +15,14 @@ alias zshconfig="nano ~/.zshrc"
 alias aliasconfig="nano ~/.alias"
 alias motd="run-parts /etc/update-motd.d"
 alias source-zsh="source ~/.zshrc"
+
+# machine specific
+HOSTNAME=$(hostname)
+if [[ "$HOSTNAME" == "atreides" ]]; then
+    alias obsidian="open /Applications/Obsidian.app --args --disable-gpu"
+    alias filen="open /Applications/Filen.app --args --disable-gpu"
+fi
+HOSTNAME=$(hostname)
+if [[ "$HOSTNAME" == "alia" ]]; then
+    alias test-alia="echo hello from alia!"
+fi
