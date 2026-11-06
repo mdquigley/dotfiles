@@ -21,7 +21,7 @@ HOSTNAME=$(hostname)
 if [[ "$HOSTNAME" == "atreides" ]]; then
     alias obsidian="open /Applications/Obsidian.app --args --disable-gpu"
     alias filen="open /Applications/Filen.app --args --disable-gpu"
-    alias open /Applications/Firefox.app --args --disable-gpu
+    alias firefox="open /Applications/Firefox.app --args --disable-gpu"
 fi
 HOSTNAME=$(hostname)
 if [[ "$HOSTNAME" == "alia" ]]; then
